@@ -1,6 +1,7 @@
 #!/bin/sh
-REAL_DIR=$PWD/$(dirname $(readlink $0) )
-
+LINK_DIR=$(cd "$(dirname "$0")";pwd)
+REAL_DIR=$(dirname $LINK_DIR/$(readlink $0) )
+# echo $REAL_DIR
 OS=$(uname)
 MMM=$REAL_DIR/mmm.$OS
 
