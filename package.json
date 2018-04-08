@@ -1,13 +1,12 @@
 {
-  "name": "mmm",
-  "version": "3.0.1",
+  "name": "mmm-bin",
+  "version": "3.0.3",
   "description": "mmm",
-  "main": "index.js",
   "repository": "git@github.com:mmpublic/mmm.git",
   "author": "zhufeng <zhfjyq@163.com>",
   "license": "MIT",
   "bin": {
-    "mmm":"bin/mmm.sh",
-    "mmm-pack":"bin/mmm-pack.sh"
+    "mmm": "bin/mmm.sh",
+    "mmm-pack": "bin/mmm-pack.sh"
   }
 }
